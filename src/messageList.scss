@@ -1,0 +1,136 @@
+
+//1314x709
+
+
+.middle{
+  position: fixed;
+  top:100px;
+  bottom:70px;
+  width: 100%;
+}
+
+//MESSAGE LIST
+.message-list-body{
+    position: absolute;
+    color: black;
+    width:70%;
+    top:0px;
+    bottom:0px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px white;
+    border-radius: 25px 25px 0px 0px;
+    background-color:#f7f7f7;
+
+}
+    .message-list{
+      position: absolute;
+      color: black;
+      z-index: 5;
+      bottom:0px;
+      top: 0px;
+      left: 0px;
+      padding: 0px;
+      margin: 0px;
+      right:0px;
+
+      text-align: left;
+      list-style-type: none;
+      overflow-y: scroll;
+      overflow-x:hidden;
+
+      clip-path: inset(0px 0px 0px 0px);//TRBL
+      transform-origin: 50% 50%; transform: rotate(180deg);
+      // onscroll:reverseScroll();
+      direction: rtl;
+
+    }
+    .text{
+      position: relative;
+      top: 0px;
+      bottom: 50px;
+      right:0px;
+      left:0px;
+      padding: 20px 20px 20px 20px;
+      // padding-right: 32px;
+      // padding-left: 28px;
+      height: 70px;
+      text-align: left;
+      // vertical-align: middle;
+      font-size: 14pt;
+      word-break: normal;
+      text-align: left;
+      // vertical-align: middle;
+      transform: rotate(180deg);
+      float: left;
+      width: 100%;
+      direction:ltr;
+      border: 1pt solid grey;
+
+      // top: 30px;
+      // bottom: 0px;
+      // right:-30px;
+      // left:0px;
+      // padding: 20px;
+      // padding-right: 32px;
+      // padding-left: 28px;
+      // height: 20px;
+      // text-align: left;
+      // vertical-align: middle;
+      // font-size: 14pt;
+      // word-break: normal;
+      // text-align: left;
+      // vertical-align: middle;
+      // transform: rotate(180deg);
+      // float: left;
+      // width: 100%;
+      // direction:ltr;
+      // border: 1pt solid grey;
+
+    }
+
+    .avatar{
+      bottom: 8px;
+      height:45px;
+      width:45px;
+      border-radius: 100%;
+      float: left;
+    }
+
+//SIDE BAR
+  .side{
+    position: absolute;
+    top: 0px;
+    right: 85%;
+    height:100%;
+    left: 0px;
+    // border: 1px solid white;
+    color: white;
+    text-align: center;
+
+  }
+
+.users-online{
+    position: absolute;
+    color: white;
+    top: 0px;
+    right: 0px;
+    height:100%;
+    left: 0px;
+
+    padding:25px 0px;
+
+    font-size: 14pt;
+    z-index: 3;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: right;
+  }
+  .user{
+    position: absolute;
+  }
+      .side-user{
+      margin: 20px;
+      height: 30px;
+      vertical-align: middle;
+  }

@@ -1,0 +1,59 @@
+#root{
+  bottom: 0px;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #0082DD;;
+  .spotim-header {
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    background-color: #0082DD;
+    height: 100px;
+    width: 85%;
+    left: 7.5%;
+    // right:7.5%;
+    padding: 20px;
+    color: white;
+    .spotim-title {
+      position: absolute;
+      font-size: 30pt;
+      top: 68px;
+      text-align: center;
+      width:100%;
+      // padding:0px 34px;
+      z-index: 0;
+      margin-left: auto;
+      margin-right: auto;
+      .title1{
+        position: absolute;
+        left:9.5%;
+      }
+      .title2{
+        position: absolute;
+        right:10.5%;
+
+
+      }
+    }
+  }
+}
+
+.logo{
+  position: relative;
+  top: -20px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+//everything but the header
+.lower-control{
+  position: absolute;
+  width:100%;
+  top: 100px;
+  height: 609px;
+}
